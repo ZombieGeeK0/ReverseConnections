@@ -31,7 +31,10 @@
 
 <hr>
 
-´[*]´ Funcionalidades:
+`[*]` Funcionalidades:
+
+        python3 connect.py -p [PORT]  (Levanta un servidor HTTP con Python por el puerto que le indiquemos)
+        python3 connect.py -i all  (Instala todos los requerimientos)
 
 <hr>
 
