@@ -69,7 +69,7 @@ _`[*]` 1.0_
 `[*]` Funcionalidades `(ejemplos)`:
 
     python3 connect.py -i True  [Instala todos los requerimientos]
-    python3 connect.py -h True  [Muestra todos los comandos]
+    python3 connect.py -a True  [Muestra todos los comandos]
     python3 connect.py -s True -p 4444  [Levanta un servidor en Python desde el puerto 4444]
     python3 connect.py -u https://www.example.com/  [Escanea la URL especificada con SQLmap en busca de DBS]
     python3 connect.py -l True -p 4444  [Inicia una escucha en el puerto 4444]
@@ -82,7 +82,7 @@ _`[*]` 1.0_
 `[*]` Comandos:
 
     [-i, --install]  (Instala todos los requerimientos necesarios)
-    [-h, --help]  (Muesra todos los comandos)
+    [-a, --ayuda]  (Muesra todos los comandos)
     [-p, --port]  (Especifica el puerto para cualquier operación)
     [-t, --target]  (Especifica la IP para cualquier operación)
     [-u, --url]  (Especifica el parámetro URL en la operación)
