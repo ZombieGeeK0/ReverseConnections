@@ -20,6 +20,12 @@
 _`[*]` No me responsabilizo del `dañO` que pueda causar esta herramienta haciendo un `mal uso` de ella._
 
 <hr>
+
+## _VERSIÓN:_
+
+_`[*]` 1.0_
+
+<hr>
         
 `[*]` Instalación en `Linux:`
 
