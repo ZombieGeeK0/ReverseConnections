@@ -15,7 +15,8 @@
 
 <hr>
 
-_¡DESCARGO DE RESPONSABILIDAD!_
+## _¡DESCARGO DE RESPONSABILIDAD!_
+
 _`[*]` No me responsabilizo del `dañO` que pueda causar esta herramienta haciendo un `mal uso` de ella._
 
 <hr>
