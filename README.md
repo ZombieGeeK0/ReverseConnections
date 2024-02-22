@@ -29,8 +29,14 @@
 - sudo apt-get install python3-pip
 - pip3 install argparse
 
-poner los requerimientos en lista
+<hr>
 
-explicar las funcionalidades
+´[*]´ Funcionalidades:
+
+<hr>
+
+explicacion del uso mostrar codigo que se ejecuta como en quackify
+
+<hr>
 
 imagen y contactco
