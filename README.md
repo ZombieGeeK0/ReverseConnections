@@ -52,7 +52,7 @@ _`[*]` 1.0_
 - sudo apt-get install python3-pip
 - pip3 install argparse
 - sudo apt install -y tor torbrowser-launcher (Escribe "torbrowser-launcher" para inciarlo)
-- 
+  
 <hr>
 
 - VS CODE:
