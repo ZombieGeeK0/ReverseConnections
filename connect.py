@@ -59,5 +59,8 @@ if args.install:
 elif args.port:
   os.system(f'python -m SimpleHTTPServer {args.port}')
 
+elif args.help:
+  print('Hello')
+
 else:
   print('\n[*] Error: Revisa si has añadido todos los argumentos necesarios.\n')
