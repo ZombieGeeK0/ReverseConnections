@@ -12,7 +12,7 @@
 `[2]` Acceder a la `carpeta:` 
 
     cd ReverseConnections
-`[3]` Darle permisos al `instalador`:
+`[3]` Darle permisos al `instalador:`
 
     chmod +x install.sh && chmod 777 install.sh
 `[4]` Ejecutar el `instalador` con `bash:`
