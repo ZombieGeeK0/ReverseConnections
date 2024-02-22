@@ -19,6 +19,12 @@
 
     sudo bash install.sh
 
+<hr>
+
+`[*]` Comandos del `install.sh:`
+
+- sudo apt-get update && apt-get install git -y && sudo apt-get install python3 && sudo apt-get install python3-pip && pip3 install argparse
+- 
 
 poner los requerimientos en lista
 
