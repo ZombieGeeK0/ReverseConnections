@@ -4,6 +4,17 @@
 
 `[*]` Está hecho en `Python` y es para `Linux.`
 
+<hr>
+
+`[*]` Soporte:
+
+- Debian
+- Ubuntu
+- Kali Linux (Debian)
+- Parrot OS (Debian)
+
+<hr>
+        
 `[*]` Instalación en `Linux:`
 
 `[1]` Clonar el `repositorio:`
