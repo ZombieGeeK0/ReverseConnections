@@ -68,8 +68,26 @@ _`[*]` 1.0_
 
 `[*]` Funcionalidades:
 
-    python3 connect.py -p [PORT]  (Levanta un servidor HTTP con Python por el puerto que le indiquemos)
-    python3 connect.py -i all  (Instala todos los requerimientos)
+    python3 connect.py -i True  [Instala todos los requerimientos]
+    python3 connect.py -h  [Muestra todos los comandos]
+    SEGUIR...
+
+<hr>
+
+`[*]` Comandos:
+
+    [-i, --install]  (Instala todos los requerimientos necesarios)
+    [-h, --help]  (Muesra todos los comandos)
+    [-p, --port]  (Especifica el puerto para cualquier operación)
+    [-t, --target]  (Especifica la IP para cualquier operación)
+    [-u, --url]  (Especifica el parámetro URL en la operación)
+    [-l, --listen]  (Se indica antes del parámetro PORT. Indica que se va a iniciar una escucha)
+    [-c, --clone]  (Puede acompañarse del parámetro URL para clonar repositorios de GitHub)
+    [-s, --server]  (Va acompañado del argumento PORT, indica que se va a levantar un servidor en Python)
+    [-n, --name]  (Especifica un nombre, normalmente va acompañado del parámetro -r para realizar una búsqueda con Sherlock)
+    [-r, --research]  (Va acompañado del parámetro NAME, se utiliza para realizar una búsqueda de usuarios con Sherlock)
+    [-v, --venom]  (Indica que se va a generar un payload con MsfVenom. Va acompañado de "True" o "False")
+    [-e, --extension]  (Especifica la extensión del un archivo, normalmente en las operaciones con MsfVenom)
 
 <hr>
 
