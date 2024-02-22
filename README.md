@@ -94,6 +94,8 @@ _`[*]` 1.0_
     [-v, --venom]  (Indica que se va a generar un payload con MsfVenom. Va acompañado de "True" o "False")
     [-e, --extension]  (Especifica la extensión del un archivo, normalmente en las operaciones con MsfVenom)
 
+`- EN LOS COMANDOS QUE NO REQUIEREN EXTENSIÓN SE DEBERÁ COLOCAR EL PARÁMETRO "True".`
+
 <hr>
 
 `[*]` Extensiones:
