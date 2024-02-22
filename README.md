@@ -42,4 +42,13 @@ explicacion del uso mostrar codigo que se ejecuta como en quackify
 
 <hr>
 
-imagen y contactco
+![imagen](https://github.com/ZombieGeeK0/GodZilla/assets/158185295/156e5b7e-3cf9-4a3d-b018-34cc8e4532b9)
+
+<hr>
+
+`[#]` Puedes contactar conmigo por `Discord` mandando una `invitación a qwfkr:`
+
+      qwfkr
+`[#]` Si no, mándame un Email a `3xpl017.contact@proton.me:`
+
+      3xpl017.contact@proton.me:
