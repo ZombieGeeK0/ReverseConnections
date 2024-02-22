@@ -48,7 +48,7 @@ explicacion del uso mostrar codigo que se ejecuta como en quackify
 
 `[#]` Puedes contactar conmigo por `Discord` mandando una `invitación a qwfkr:`
 
-      qwfkr
+    qwfkr
 `[#]` Si no, mándame un Email a `3xpl017.contact@proton.me:`
 
-      3xpl017.contact@proton.me:
+    3xpl017.contact@proton.me:
