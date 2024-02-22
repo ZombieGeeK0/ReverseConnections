@@ -9,9 +9,9 @@
 `[*]` Soporte:
 
 - Debian
-- Ubuntu
 - Kali Linux (Debian)
 - Parrot OS (Debian)
+- Windows (En desarrollo, próxima versión)
 
 <hr>
 
