@@ -69,14 +69,14 @@ _`[*]` 1.0_
 
 `[*]` Funcionalidades `(ejemplos)`:
 
-    python3 connect.py -i True  [Instala todos los requerimientos]
-    python3 connect.py -a True  [Muestra todos los comandos]
-    python3 connect.py -s True -p 4444  [Levanta un servidor en Python desde el puerto 4444]
+    python3 connect.py -i true  [Instala todos los requerimientos]
+    python3 connect.py -a true  [Muestra todos los comandos]
+    python3 connect.py -s true -p 4444  [Levanta un servidor en Python desde el puerto 4444]
     python3 connect.py -u https://www.example.com/  [Escanea la URL especificada con SQLmap en busca de DBS]
-    python3 connect.py -l True -p 4444  [Inicia una escucha en el puerto 4444]
-    python3 connect.py -c True -u https://github.com/ZombieGeeK0/ReverseConnections  [Clona el repositorio especificado]
-    python3 connect.py -r True -name Example  [Busca un nombre en plataformas de Internet con Sherlock]
-    python3 connect.py -v True -n NombreDelPayload -p 4445 -t 127.0.1.1 -e .exe  [Genera un payload con msfvenom para Windows, en este caso. El sistema operativo se controla por la extensión]
+    python3 connect.py -l true -p 4444  [Inicia una escucha en el puerto 4444]
+    python3 connect.py -c true -u https://github.com/ZombieGeeK0/ReverseConnections  [Clona el repositorio especificado]
+    python3 connect.py -r true -name Example  [Busca un nombre en plataformas de Internet con Sherlock]
+    python3 connect.py -v true -n NombreDelPayload -p 4445 -t 127.0.1.1 -e .exe  [Genera un payload con msfvenom para Windows, en este caso. El sistema operativo se controla por la extensión]
 
 <hr>
 
@@ -95,7 +95,7 @@ _`[*]` 1.0_
     [-v, --venom]  (Indica que se va a generar un payload con MsfVenom. Va acompañado de "True" o "False")
     [-e, --extension]  (Especifica la extensión del un archivo, normalmente en las operaciones con MsfVenom)
 
-`- EN LOS COMANDOS QUE NO REQUIEREN EXTENSIÓN SE DEBERÁ COLOCAR EL PARÁMETRO "True".`
+`- EN LOS COMANDOS QUE NO REQUIEREN EXTENSIÓN SE DEBERÁ COLOCAR EL PARÁMETRO "true".`
 
 <hr>
 
