@@ -53,6 +53,7 @@ _`[*]` 1.0_
 - pip3 install argparse
 - pip3 install webbrowser
 - sudo apt install -y tor torbrowser-launcher (Escribe "torbrowser-launcher" para inciarlo)
+- git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
   
 <hr>
 
