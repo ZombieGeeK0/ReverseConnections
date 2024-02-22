@@ -51,7 +51,15 @@ _`[*]` 1.0_
 - sudo apt-get install python3
 - sudo apt-get install python3-pip
 - pip3 install argparse
-- sudo apt install -y tor torbrowser-launcher (Escribe "torbrowser-launcher" para inciarlo) 
+- sudo apt install -y tor torbrowser-launcher (Escribe "torbrowser-launcher" para inciarlo)
+- VS Code:
+- sudo apt-get install wget gpg
+- wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+- sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+- rm -f packages.microsoft.gpg
+- sudo apt install apt-transport-https
+- sudo apt update
+- sudo apt install code
 
 <hr>
 
