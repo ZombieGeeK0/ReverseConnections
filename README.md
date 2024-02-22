@@ -66,7 +66,7 @@ _`[*]` 1.0_
 
 <hr>
 
-`[*]` Funcionalidades:
+`[*]` Funcionalidades `(ejemplos)`:
 
     python3 connect.py -i True  [Instala todos los requerimientos]
     python3 connect.py -h  [Muestra todos los comandos]
