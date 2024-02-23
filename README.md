@@ -155,7 +155,7 @@ else:
 
 <hr>
 
-![imagen](https://github.com/ZombieGeeK0/GodZilla/assets/158185295/156e5b7e-3cf9-4a3d-b018-34cc8e4532b9)
+![imagen](https://github.com/ZombieGeeK0/ReverseConnections/assets/158185295/2ae70deb-fe73-459e-a085-e44b5b287db5)
 
 <hr>
 
