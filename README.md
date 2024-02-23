@@ -115,16 +115,36 @@ _`[*]` 1.0_
 
 `[*]` Utilizamos la biblioteca `argparse` y declaramos los argumentos:
 
-        ```python
-parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser()
 
         
-parser.add_argument('--install', '-i',
+    parser.add_argument('--argument', '-a',
                         required = False,
-                        help = "Instala todos los requerimientos necesarios.")
+                        help = "Este es un argumento.")
 
-args = parser.parse_args()
-```
+    args = parser.parse_args()
+
+`[*]` Para los argumentos que `no requieren parámtro,` se indica el parámetro "true":
+
+    if args.argument == 'true':
+            print('Example')
+
+`[*]` Para los argumentos que requieren parámetros, se utiliza este bloque de código:
+
+    if args.argument:
+            print('Example')
+
+`[*]` Si no se han añadido todos los `argumentos necesarios` para realizar la operación, se muestra un mensaje de `error:`
+
+    
+    def error():
+            print('\n[*] Error: Revisa si has añadido todos los argumentos necesarios.\n')
+
+    if args.argument == 'true':
+            print('Example')
+
+    else:
+            error()
 
 <hr>
 
