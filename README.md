@@ -113,6 +113,16 @@ _`[*]` 1.0_
 
 ## _- EXPLICACIÓN:_
 
+`[*]` Utilizamos la biblioteca `argparse` y declaramos los argumentos:
+
+        parser = argparse.ArgumentParser()
+
+        
+        parser.add_argument('--install', '-i',
+                            required = False,
+                            help = "Instala todos los requerimientos necesarios.")
+
+        args = parser.parse_args()
 
 <hr>
 
