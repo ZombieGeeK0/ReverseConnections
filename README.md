@@ -111,7 +111,8 @@ _`[*]` 1.0_
 
 <hr>
 
-explicacion del uso mostrar codigo que se ejecuta como en quackify
+## _- EXPLICACIÓN:_
+
 
 <hr>
 
