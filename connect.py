@@ -61,7 +61,7 @@ args = parser.parse_args()
 if args.install:
     os.system("apt-get update && sudo apt-get install git -y && sudo apt-get install python3 && sudo apt-get install python3-pip && pip3 install argparse && sudo apt install -y tor torbrowser-launcher && sudo apt-get install wget gpg && wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg && sudo sh -c 'echo \"deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main\" > /etc/apt/sources.list.d/vscode.list' && rm -f packages.microsoft.gpg && sudo apt install apt-transport-https && sudo apt update && sudo apt install code && git clone --depth 1 https://www.github.com/sqlmapproyect/sqlmap.git sqlmap-dev && sudo apt get-install Netcat && sudo apt-get install metasploit-framework")
   
-elif args.ayuda == 'True':
+elif args.ayuda == 'true':
     webbrowser.open('https://www.github.com/ZombieGeek0/ReverseConnections')
     text = '''
 [-i, --install]  (Instala todos los requerimientos necesarios)
