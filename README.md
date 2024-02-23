@@ -111,6 +111,14 @@ _`[*]` 1.0_
 
 <hr>
 
+```python
+from quackify import send
+
+send.string("Hola Mundo")
+```
+
+<hr>
+
 ## _- EXPLICACIÓN:_
 
 `[*]` Utilizamos la biblioteca `argparse` y declaramos los argumentos:
