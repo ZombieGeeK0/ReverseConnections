@@ -165,6 +165,3 @@ else:
 `[#]` Si no, mándame un Email a `3xpl017.contact@proton.me`
 
     3xpl017.contact@proton.me:
-
-
-https://github.com/SirChooks/Persistent-Exploit/blob/main/example.sh
