@@ -1,7 +1,44 @@
-clear
-echo ====================================================================================================
-echo [?] Instalando...
-echo ====================================================================================================
-sudo apt-get update && sudo apt-get install git -y && sudo apt-get install python3 && sudo apt-get install python3-pip && pip3 install argparse && pip3 install webbrowser && sudo apt install -y tor torbrowser-launcher && sudo apt-get install wget gpg && wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg && sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list' && rm -f packages.microsoft.gpg && sudo apt install apt-transport-https && sudo apt update && sudo apt install code && git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev && sudo apt-get install Netcat && git clone https://github.com/sherlock-project/sherlock && sudo apt-get install metasploit-framework
-echo ====================================================================================================
-echo [?] Requerimientos instalados.
+function install() {
+   clear
+   echo -e "\033[32m[~] Actualizando paquetes..."
+   sudo apt update -y && sudo apt upgrade -y
+  
+
+   sleep 3
+   which python3 > /dev/null 2>&1
+   if [ "$?" -eq "0" ]; then
+   echo -e "\033[32m\n[~] Python3 ya esta instalado."
+   else
+   echo -e "\033[31m\n[!] Python3 no esta instalado."
+   sleep 2
+   echo -e "\033[32m\n[~] Instalando python3..."
+   sudo apt install python3 -y
+   fi
+   
+   sleep 3
+   which pip3 > /dev/null 2>&1
+   if [ "$?" -eq "0" ]; then
+   echo -e "\033[32m\n[~] pip3 ya esta instalado."
+   else
+   echo -e "\033[31m\n[!] pip3 no esta instalado."
+   sleep 2
+   echo -e "\033[32m\n[~] Instalando pip3..."
+   sudo apt install python3-pip -y
+   fi
+
+   sleep 3
+   which git > /dev/null 2>&1
+   if [ "$?" -eq "0" ]; then
+   echo -e "\033[32m\n[~] Git ya esta instalado."
+   else
+   echo -e "\033[32m\n[!] Git no esta instalado."
+   sleep 2
+   echo -e "\033[32m\n[~] Instalando git..."
+   sudo apt install git -y
+   fi
+   
+   echo -e "\033[32m\n[~] Instalando requerimientos..."
+   pip3 install -r requirements.txt
+}
+
+install
